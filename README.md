@@ -2,7 +2,7 @@
 | Feature | Description | PWA | Native App |
 |---------|-------------|-----|------------|
 | Desktop Installation | You can install a PWA on macOS, Windows, and Chrome OS. You'll need to create one separate app for each operating system. | ✅ | ✅ |
-| Mobile Installation | You can install a PWA on iOS and Android. You'll need to create one separate app for each operating system. | ✅ | ✅ |
+| Mobile Installation | You can install a PWA on iOS and Android. On native You'll need to create one separate app for each operating system. | ✅ | ✅ |
 | Universal Installation | PWA is the only format that allows one single app to be installed on iOS, Android, macOS, Windows, and Chrome OS. | ✅ | 🚫  |
 | Push Notifications | You can send push notifications to iOS and Android users from native apps and PWAs (with [iOS 16.4 or higher](https://intercom.help/progressier/en/articles/7120026-what-are-the-requirements-for-sending-web-push-notifications-on-ios)). | ✅ | ✅ |
 | Offline Capabilities | Both PWA and Native Apps can function offline, but the methods for storage and access may vary. PWAs often utilize Service Workers and the Cache API, which are typically more complex than their native app counterparts. | 🤔 | ✅ |
