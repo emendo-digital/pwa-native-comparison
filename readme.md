@@ -46,4 +46,14 @@
 | Play Media | PWAs can play media but might face limitations in terms of codecs and DRM protected content. Native apps have broader support. | ✅ | ✅ |
 | Network Information | PWAs can access a limited set of information about the network speed. Native apps have more extensive network monitoring capabilities. | 🤔 | ✅ |
 | Screen Capture | PWAs have limited screen capture capabilities. Native apps often offer more advanced features. | 🤔 | ✅ |
-| Shape Detection | PWAs can use the Shape Detection API for face and QR code recognition, but it may have limitations. Native apps can integrate more advanced recognition libraries. |
+| Shape Detection | PWAs can use the Shape Detection API for face and QR code recognition, but it may have limitations. Native apps can integrate more advanced recognition libraries. | 🤔 | ✅ |
+| Device Memory | PWAs can access some device memory information for optimizing performance. Native apps can get more detailed memory stats and control. | 🤔 | ✅ |
+| One-Time Passwords | PWAs can integrate with OTPs for authentication, but might not have as seamless an integration as native apps. | 🤔 | ✅ |
+| Virtual Keyboard | PWAs can trigger the virtual keyboard, but don't have as much control over its behavior compared to native apps. | 🤔 | ✅ |
+| Pointer Lock | PWAs can lock the pointer (useful for games), but face some browser restrictions. Native apps can often provide a more consistent experience. | 🤔 | ✅ |
+| Detect Device Orientation | Allows detecting the orientation of the device, whether landscape or portrait. In a PWA, you can use the DeviceOrientation event. | ✅ | ✅ |
+| Detect Device Motion | Allows the app to detect device motion such as shakes or tilts. In a PWA, you can use the DeviceMotion event. | ✅ | ✅ |
+| Block Screenshots & Recording | PWAs don't have native support for blocking screenshots and video recording. Sensitive native apps (e.g., banking) can prevent screen capture or recording for security reasons. | 🚫 | ✅ |
+| Direct Printing | PWAs face limitations with direct printing without user interaction. Native apps can often directly interface with printers. | 🚫 | ✅ |
+| Home Screen Widgets | PWAs cannot create home screen widgets on most platforms. Native apps can provide widgets for quick access to app functionalities. | 🚫 | ✅ |
+| Direct Graphics Hardware Access | This feature refers to the capability of an app to directly utilize the GPU of a device. Bypassing any intermediate layers (e.g., the browser) often provides a smoother user experience. | 🚫 | ✅ |
