@@ -1,4 +1,10 @@
 # PWA vs Native Capabilities
+- **✅**: This indicates that the feature is fully supported by the platform. For PWAs, this means that the technology or capability can be utilized effectively across supported browsers. For Native Apps, it means the feature can be utilized across various devices and operating systems without significant limitations.
+
+- **🚫**: This indicates that the feature is not supported by the platform. For PWAs, a "No" might mean that current web technologies do not allow for this capability, or it is restricted due to security, privacy, or technical reasons. For Native Apps, it typically means that the feature cannot be implemented due to OS-level restrictions or lack of API support.
+
+- **🤔**: This signifies conditional or partial support for the feature. For PWAs, this could mean that the feature is supported only in certain browsers, under specific conditions, or might require user permissions. It may also indicate that the feature is experimental or under development. For Native Apps, "Maybe" could mean that the feature is available on some but not all operating systems, or its implementation can vary significantly between devices.
+
 | Feature | Description | PWA | Native App |
 |---------|-------------|-----|------------|
 | Desktop Installation | You can install a PWA on macOS, Windows, and Chrome OS. You'll need to create one separate app for each operating system. | ✅ | ✅ |
